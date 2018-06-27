@@ -211,6 +211,9 @@ img {
     text-transform: uppercase;
     text-decoration: none;   
 }
+.iframe {
+    width: 500px;
+}
 
 .footer-nav-a {
 
@@ -239,7 +242,10 @@ img {
 }
 
 /* Media Queries */
-
+@media(max-width: 900px) {
+    .iframe{
+ width: 450px;
+    }
 @media(max-width: 768px) {
     .top-container {
         grid-template-areas:
@@ -263,6 +269,9 @@ img {
         text-align: center;
         margin: auto;
     }
+    .iframe {
+        width: 400px;
+    }
     .footer-nav {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -277,5 +286,8 @@ img {
         'top-box-a' 
         'top-box-b'
     }
+.iframe {
+    width:300px;
+}
 
 }
